@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Ivan Sanchez</a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                               <i class='bx bx-home nav__icon'></i>Home 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                               <i class='bx bx-user nav__icon'></i>Perfil 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                               <i class='bx bx-book nav__icon'></i>Educacion
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                               <i class='bx bx-receipt nav__icon'></i>Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                               <i class='bx bx-briefcase-alt nav__icon'></i>Experiencia
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                               <i class='bx bx-award nav__icon'></i>Certificados 
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>Menu
+                </div>
+            </nav>            
+        </header>
+
+        <main class="l-main bd-container" id="area-cv">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <div class="image__cropper">
+                                    <img src="assets/img/perfil2.jpg" alt="" class="home__img">
+                                </div>
+                                <h1 class="home__title">IVAN <b>SANCHEZ</b></h1>
+                                <h3 class="home__profession">Estudiante Ingenieria Electronica <br> Desarrollador Web</h3>
+                                
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Descargar</a>
+                                </div>
+                            </div>
+                            <div class="home_address bd-grid">
+                                <span class="home__information"> 
+                                    <i class="bx bx-map home__icon"></i>Cll.2 Este #1A-85 Sur T-A8 Apto 303
+                                </span>
+                                <span class="home__information"> 
+                                    <i class="bx bx-envelope home__icon"></i> ivansanchezdiaz2001@gmail.com
+                                </span>
+                                <span class="home__information"> 
+                                    <i class="bx bx-phone home__icon"></i> 304-623-1695
+                                </span>
+                            </div>
+                        </div>
+
+                        <!--PDF-->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>        
+                    
+                    
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">REDES SOCIALES</h2>
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/ivan-raul-sanchez-diaz/" target ="_blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i>@IvanSanchezDeveloper
+                            </a>
+                            <a href="https://github.com/IvanSanchezDeveloper" target ="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i>@ivan-raul-sanchez-diaz
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">PERFIL</h2>
+                        <p class="profile__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi atque, cum magni doloremque molestiae itaque facilis veritatis consectetur voluptatem.
+                        </p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Educación</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BACHILLERATO</h3>
+                                    <span class="education__studies">Colegio El Mundo Joven</span>
+                                    <span class="education__year">2007 - 2018</span>
+                                </div>
+                            </div>
+
+                                <div class="education__content">
+                                    <div class="education__time">
+                                        <span class="education__rounder"></span>
+                                    </div>
+    
+                                    <div class="education__data bd-grid">
+                                        <h3 class="education__title">INGENIERIA ELECTRONICA Y TELECOMUNICACIONES</h3>
+                                        <span class="education__studies">Escuela Militar de Telecomunicaciónes</span>
+                                        <span class="education__year">2018 - 2023</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">HABILIDADES</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Python
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>SQL
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>CSS
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Creatividad
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Eficiencia
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Espíritu Colaborativo
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experiencia</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!--<span class="experience__line"></span>-->
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">OPERARIO DE PRODUCCION</h3>
+                                    <span class="experience__company">Diciembre 2020 - Febrero 2021 | Sunshine Bouquet </span>
+                                    <p class="experience__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odio delectus a rem laboriosam! Perferendis eius laudantium sunt natus adipisci!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificados</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Desarrollo Web</h3>
+                                <span class="certificate__company"> 2021 | Google Activate </span>
+                                <p class="certificate__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vero. Quo voluptas totam distinctio culpa eos minus harum, perspiciatis neque.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Fundamentos Atencion al Cliente</h3>
+                                <span class="certificate__company"> 2020 | LinkedIn Learning </span>
+                                <p class="certificate__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vero. Quo voluptas totam distinctio culpa eos minus harum, perspiciatis neque.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">IDIOMAS</h2>
+
+                        <div class="lenguages__container">
+                            <ul class="lenguages__content bd-grid">
+                                <li class="lenguages__name">
+                                    <span class="lenguages__circle"></span>Español
+                                </li>
+
+                                <li class="lenguages__name">
+                                    <span class="lenguages__circle"></span>Ingles Intermedio 
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Intereses</h2>
+
+                        <div class="interests__container bd-grid">
+
+                            <div class="interests__content">
+                                <i class='bx bx-football interests__icon'></i>
+                                <span class="interests__name">Futbol</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-laptop interests__icon' ></i>
+                                <span class="interests__name">Programación</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-chip interests__icon' ></i>
+                                <span class="interests__name">Electronica</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
