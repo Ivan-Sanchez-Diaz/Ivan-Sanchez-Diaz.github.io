@@ -73,7 +73,7 @@ let resumeButton = document.getElementById('resume-button')
 // Html2pdf options
 let opt = {
   margin:       0,
-  filename:     'myfile.pdf',
+  filename:     'CV-Ivan-Raul-Sanchez-Diaz.pdf',
   image:        { type: 'jpeg', quality: 0.98 },
   html2canvas:  { scale: 3 },
   jsPDF:        { format: 'a4', orientation: 'portrait' }
